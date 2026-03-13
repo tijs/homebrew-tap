@@ -1,8 +1,8 @@
 class Attic < Formula
   desc "Back up your iCloud Photos library to S3-compatible storage"
   homepage "https://github.com/tijs/attic"
-  version "v0.1.4"
-  license "MIT"
+  version "0.1.4"
+  license "Apache-2.0"
 
   depends_on "tijs/tap/ladder"
 
