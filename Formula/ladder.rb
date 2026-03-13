@@ -7,7 +7,7 @@ class Ladder < Formula
   depends_on arch: :arm64
 
   url "https://github.com/tijs/ladder/releases/download/v#{version}/ladder-#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "PLACEHOLDER"
+  sha256 "c3fc0f9d45b840896adff5300e507385c4189d127264e6a54ffcf4f7fa91c82d"
 
   def install
     bin.install "ladder-aarch64-apple-darwin" => "ladder"
