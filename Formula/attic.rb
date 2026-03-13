@@ -4,6 +4,8 @@ class Attic < Formula
   version "0.1.0"
   license "MIT"
 
+  depends_on "tijs/tap/ladder"
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-aarch64-apple-darwin.tar.gz"
