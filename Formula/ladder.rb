@@ -2,7 +2,7 @@ class Ladder < Formula
   desc "PhotoKit export helper for iCloud Photos backup"
   homepage "https://github.com/tijs/ladder"
   version "0.1.1"
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on arch: :arm64
 
