@@ -1,7 +1,7 @@
 class Attic < Formula
   desc "Back up your iCloud Photos library to S3-compatible storage"
   homepage "https://github.com/tijs/attic"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "tijs/tap/ladder"
@@ -9,10 +9,10 @@ class Attic < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "cc5f88bf90e0a44fabd76e1aaf743563922874243a48904d33f13c4b3142fe81"
+      sha256 "6f4193fe4d3bf9ba9705b11a47409f4625db77afbf7d24af63788755540e53da"
     else
       url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "03903285e2c3bf3dab50ca6d7fba4a7643f664f8a317a826d3df83717ada4529"
+      sha256 "4f91865efcd2b25ca1da26d4525d761bd986ae530d868a0c65711e79fc6664e8"
     end
   end
 
