@@ -10,7 +10,7 @@ class Ladder < Formula
   sha256 "d8a45e1a30ae123523a09cf77ed0a2217f8c5fbf6ef029f4751f018d4ba2799d"
 
   def install
-    bin.install "ladder-aarch64-apple-darwin" => "ladder"
+    bin.install "ladder"
   end
 
   test do
