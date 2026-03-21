@@ -9,10 +9,10 @@ class Attic < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "12d775a1b36114ea4540d1c8d4b0a4fc206af4b3f7885e6403b65d738026e3ab"
     else
       url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "2fedaabc574e653c1f484a258a5378fa5b39946855011ed96a5c45ce7dd808e0"
     end
   end
 
