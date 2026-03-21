@@ -1,13 +1,13 @@
 class Ladder < Formula
   desc "PhotoKit export helper for iCloud Photos backup"
   homepage "https://github.com/tijs/ladder"
-  version "0.3.1"
+  version "0.3.2"
   license "Apache-2.0"
 
   depends_on arch: :arm64
 
   url "https://github.com/tijs/ladder/releases/download/v#{version}/ladder-#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "e9b5a838a00f86ad6b7fa11970ea0ca9e6c4a51f15dd4a32fab309945e491355"
+  sha256 "512f46c9440d8f3504597077065e066a4f6963df7b564c694fc21aff80d56153"
 
   def install
     bin.install "ladder-aarch64-apple-darwin" => "ladder"
