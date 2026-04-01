@@ -1,13 +1,13 @@
 class Attic < Formula
   desc "Back up your iCloud Photos library to S3-compatible storage"
   homepage "https://github.com/tijs/attic"
-  version "1.0.0-alpha.4"
+  version "1.0.0-alpha.5"
   license "Apache-2.0"
 
   depends_on arch: :arm64
 
   url "https://github.com/tijs/attic/releases/download/v#{version}/attic-#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "056673741789be5f37c923265136d9ad090fff41b7fdd6a48042d01839283cef"
+  sha256 "2294233bab13695c1f5c1556a630eff742613d6d9e16756987031c89fcc18f98"
 
   def install
     bin.install "attic"
