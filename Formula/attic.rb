@@ -10,8 +10,11 @@ class Attic < Formula
   sha256 "c36786ce9175017a262093575466c170576975d90206bb1742b724135b2255fb"
 
   def install
-    libexec.install "attic", "attic_AtticCLI.bundle"
-    bin.install_symlink libexec/"attic"
+    # Bundle.module on macOS does not realpath the symlink chain, so the
+    # bundle must sit next to the symlink Homebrew exposes in
+    # /opt/homebrew/bin/. Installing directly to bin/ ensures
+    # /opt/homebrew/bin/attic_AtticCLI.bundle resolves alongside attic.
+    bin.install "attic", "attic_AtticCLI.bundle"
   end
 
   test do
