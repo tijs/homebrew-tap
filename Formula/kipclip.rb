@@ -1,15 +1,15 @@
 class Kipclip < Formula
   desc "CLI for kipclip.com – AT Protocol bookmark manager"
   homepage "https://kipclip.com"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.2/kipclip-aarch64-apple-darwin.tar.xz"
-      sha256 "b8058aaf89a712503b4cee68fbda996dda8375c14594a829231bd4766277d0c9"
+      url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.3/kipclip-aarch64-apple-darwin.tar.xz"
+      sha256 "97e47ff8f2d51247a993a328fa5ddfa219bdaf4dc77fd2a3684d998315d1980b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.2/kipclip-x86_64-apple-darwin.tar.xz"
-      sha256 "ea244389d122366aec9d55708d785be1bb35ded7e94611720db93305aa353bbe"
+      url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.3/kipclip-x86_64-apple-darwin.tar.xz"
+      sha256 "2ad54c05876c93a53912a0c4704ebca39d9e486df6fbc80b8a32906523e2c90c"
     end
   end
   license "MIT"
