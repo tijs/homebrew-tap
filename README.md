@@ -23,6 +23,7 @@ brew install --cask tijs/tap/peel
 |---------|-------------|
 | [attic](https://github.com/tijs/attic) | Back up your iCloud Photos library to S3-compatible storage |
 | [kipclip](https://github.com/tijs/kipclip-cli) | AT Protocol bookmark manager CLI |
+| [mei](https://github.com/tijs/mei) | Native Apple-Silicon Swift/MLX OpenAI-compatible local inference server |
 
 ## Casks
 
