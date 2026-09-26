@@ -1,8 +1,8 @@
 class Mei < Formula
   desc "Native Apple-Silicon Swift/MLX OpenAI-compatible local inference server"
   homepage "https://github.com/tijs/mei"
-  url "https://github.com/tijs/mei/releases/download/v0.6.0/mei-0.6.0-macos-arm64.tar.gz"
-  sha256 "1c3e25cecab504302e17b4d86a17cb30263c347cfd1fdcc609e5cec7695a3314"
+  url "https://github.com/tijs/mei/releases/download/v0.6.1/mei-0.6.1-macos-arm64.tar.gz"
+  sha256 "282851f77d851276325a155b43e5a84e8554c1534a0e0ead197655cb9cf1f3d6"
   license "MIT"
 
   depends_on arch: :arm64
