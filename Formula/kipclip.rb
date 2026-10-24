@@ -2,11 +2,11 @@ class Kipclip < Formula
   desc "CLI for kipclip.com – AT Protocol bookmark manager"
   homepage "https://kipclip.com"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.4/kipclip-aarch64-apple-darwin.tar.xz"
-    sha256 "488047bdc1ba334e87772002dd2772970698b3aa3ba421707b67131c80cac2e4"
+    url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.5/kipclip-aarch64-apple-darwin.tar.xz"
+    sha256 "796d09ef24882f10781d7b51ff691bbb7345a9b7ddbaa4b11bf82ce788bbf3f8"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.4/kipclip-x86_64-apple-darwin.tar.xz"
-    sha256 "54e2a3105ad35430f9ab1bd7553f2bf50da45d7320f78aefdf24e960803d72e1"
+    url "https://github.com/tijs/kipclip-cli/releases/download/v0.1.5/kipclip-x86_64-apple-darwin.tar.xz"
+    sha256 "4916e5f764712c3edb094fc6d3856c58eab56d0996b61e51ea55d356793c12ce"
   else
     odie "kipclip is currently available only for macOS"
   end
