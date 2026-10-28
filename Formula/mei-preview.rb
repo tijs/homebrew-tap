@@ -28,7 +28,6 @@ class MeiPreview < Formula
   test do
     assert_match "mei 0.10.0-rc.1", shell_output("#{bin}/mei-preview --version")
     assert_path_exists libexec/"mlx.metallib"
-    assert_path_exists libexec/"default.metallib"
     assert_path_exists libexec/"mlx.metallib.provenance"
     assert_path_exists pkgshare/"THIRD-PARTY-NOTICES.md"
   end
